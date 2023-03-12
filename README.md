@@ -39,6 +39,10 @@ Simple Python Server for Telegram Bot that allows you to bypass content filterin
   ```bash
   docker build --network bridge-net -t miko/chatgpt-telebot .
   ```
+  * if error try
+  ```
+  docker build --network host -t miko/chatgpt-telebot .
+  ```
 5. Run Docker Container
   ```bash
   docker run -d --network bridge-net --name chatgpt-telebot  miko/chatgpt-telebot
