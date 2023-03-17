@@ -47,3 +47,6 @@ Simple Python Server for Telegram Bot that allows you to bypass content filterin
   ```bash
   docker run -d --network bridge-net --name chatgpt-telebot  miko/chatgpt-telebot
   ```
+
+# Reference
+- https://github.com/GrimOutlaw/ChatGPT-Bypass
